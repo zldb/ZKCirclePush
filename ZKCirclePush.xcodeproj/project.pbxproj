@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CDAA7201FA178680084E413 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDAA71F1FA178680084E413 /* main.m */; };
+		7CDAA7231FA178680084E413 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDAA7221FA178680084E413 /* AppDelegate.m */; };
+		7CDAA7261FA178680084E413 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDAA7251FA178680084E413 /* ViewController.m */; };
+		7CDAA7291FA178680084E413 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CDAA7271FA178680084E413 /* Main.storyboard */; };
+		7CDAA72B1FA178680084E413 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CDAA72A1FA178680084E413 /* Assets.xcassets */; };
+		7CDAA72E1FA178680084E413 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CDAA72C1FA178680084E413 /* LaunchScreen.storyboard */; };
+		7CDAA7391FA178690084E413 /* ZKCirclePushTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDAA7381FA178690084E413 /* ZKCirclePushTests.m */; };
+		7CDAA7441FA178690084E413 /* ZKCirclePushUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDAA7431FA178690084E413 /* ZKCirclePushUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CDAA7351FA178690084E413 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CDAA7131FA178680084E413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CDAA71A1FA178680084E413;
+			remoteInfo = ZKCirclePush;
+		};
+		7CDAA7401FA178690084E413 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CDAA7131FA178680084E413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CDAA71A1FA178680084E413;
+			remoteInfo = ZKCirclePush;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7CDAA71B1FA178680084E413 /* ZKCirclePush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZKCirclePush.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CDAA71F1FA178680084E413 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7CDAA7211FA178680084E413 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7CDAA7221FA178680084E413 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7CDAA7241FA178680084E413 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7CDAA7251FA178680084E413 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7CDAA7281FA178680084E413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CDAA72A1FA178680084E413 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CDAA72D1FA178680084E413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CDAA72F1FA178690084E413 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CDAA7341FA178690084E413 /* ZKCirclePushTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZKCirclePushTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CDAA7381FA178690084E413 /* ZKCirclePushTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKCirclePushTests.m; sourceTree = "<group>"; };
+		7CDAA73A1FA178690084E413 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CDAA73F1FA178690084E413 /* ZKCirclePushUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZKCirclePushUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CDAA7431FA178690084E413 /* ZKCirclePushUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKCirclePushUITests.m; sourceTree = "<group>"; };
+		7CDAA7451FA178690084E413 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CDAA7181FA178680084E413 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CDAA7311FA178690084E413 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CDAA73C1FA178690084E413 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CDAA7121FA178680084E413 = {
+			isa = PBXGroup;
+			children = (
+				7CDAA71D1FA178680084E413 /* ZKCirclePush */,
+				7CDAA7371FA178690084E413 /* ZKCirclePushTests */,
+				7CDAA7421FA178690084E413 /* ZKCirclePushUITests */,
+				7CDAA71C1FA178680084E413 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CDAA71C1FA178680084E413 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CDAA71B1FA178680084E413 /* ZKCirclePush.app */,
+				7CDAA7341FA178690084E413 /* ZKCirclePushTests.xctest */,
+				7CDAA73F1FA178690084E413 /* ZKCirclePushUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CDAA71D1FA178680084E413 /* ZKCirclePush */ = {
+			isa = PBXGroup;
+			children = (
+				7CDAA7211FA178680084E413 /* AppDelegate.h */,
+				7CDAA7221FA178680084E413 /* AppDelegate.m */,
+				7CDAA7241FA178680084E413 /* ViewController.h */,
+				7CDAA7251FA178680084E413 /* ViewController.m */,
+				7CDAA7271FA178680084E413 /* Main.storyboard */,
+				7CDAA72A1FA178680084E413 /* Assets.xcassets */,
+				7CDAA72C1FA178680084E413 /* LaunchScreen.storyboard */,
+				7CDAA72F1FA178690084E413 /* Info.plist */,
+				7CDAA71E1FA178680084E413 /* Supporting Files */,
+			);
+			path = ZKCirclePush;
+			sourceTree = "<group>";
+		};
+		7CDAA71E1FA178680084E413 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CDAA71F1FA178680084E413 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7CDAA7371FA178690084E413 /* ZKCirclePushTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CDAA7381FA178690084E413 /* ZKCirclePushTests.m */,
+				7CDAA73A1FA178690084E413 /* Info.plist */,
+			);
+			path = ZKCirclePushTests;
+			sourceTree = "<group>";
+		};
+		7CDAA7421FA178690084E413 /* ZKCirclePushUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7CDAA7431FA178690084E413 /* ZKCirclePushUITests.m */,
+				7CDAA7451FA178690084E413 /* Info.plist */,
+			);
+			path = ZKCirclePushUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CDAA71A1FA178680084E413 /* ZKCirclePush */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CDAA7481FA178690084E413 /* Build configuration list for PBXNativeTarget "ZKCirclePush" */;
+			buildPhases = (
+				7CDAA7171FA178680084E413 /* Sources */,
+				7CDAA7181FA178680084E413 /* Frameworks */,
+				7CDAA7191FA178680084E413 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZKCirclePush;
+			productName = ZKCirclePush;
+			productReference = 7CDAA71B1FA178680084E413 /* ZKCirclePush.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CDAA7331FA178690084E413 /* ZKCirclePushTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CDAA74B1FA178690084E413 /* Build configuration list for PBXNativeTarget "ZKCirclePushTests" */;
+			buildPhases = (
+				7CDAA7301FA178690084E413 /* Sources */,
+				7CDAA7311FA178690084E413 /* Frameworks */,
+				7CDAA7321FA178690084E413 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CDAA7361FA178690084E413 /* PBXTargetDependency */,
+			);
+			name = ZKCirclePushTests;
+			productName = ZKCirclePushTests;
+			productReference = 7CDAA7341FA178690084E413 /* ZKCirclePushTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7CDAA73E1FA178690084E413 /* ZKCirclePushUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CDAA74E1FA178690084E413 /* Build configuration list for PBXNativeTarget "ZKCirclePushUITests" */;
+			buildPhases = (
+				7CDAA73B1FA178690084E413 /* Sources */,
+				7CDAA73C1FA178690084E413 /* Frameworks */,
+				7CDAA73D1FA178690084E413 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CDAA7411FA178690084E413 /* PBXTargetDependency */,
+			);
+			name = ZKCirclePushUITests;
+			productName = ZKCirclePushUITests;
+			productReference = 7CDAA73F1FA178690084E413 /* ZKCirclePushUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CDAA7131FA178680084E413 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = paimwin123;
+				TargetAttributes = {
+					7CDAA71A1FA178680084E413 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = K36LPBJ5XL;
+						ProvisioningStyle = Automatic;
+					};
+					7CDAA7331FA178690084E413 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = K36LPBJ5XL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7CDAA71A1FA178680084E413;
+					};
+					7CDAA73E1FA178690084E413 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = K36LPBJ5XL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7CDAA71A1FA178680084E413;
+					};
+				};
+			};
+			buildConfigurationList = 7CDAA7161FA178680084E413 /* Build configuration list for PBXProject "ZKCirclePush" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CDAA7121FA178680084E413;
+			productRefGroup = 7CDAA71C1FA178680084E413 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CDAA71A1FA178680084E413 /* ZKCirclePush */,
+				7CDAA7331FA178690084E413 /* ZKCirclePushTests */,
+				7CDAA73E1FA178690084E413 /* ZKCirclePushUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CDAA7191FA178680084E413 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CDAA72E1FA178680084E413 /* LaunchScreen.storyboard in Resources */,
+				7CDAA72B1FA178680084E413 /* Assets.xcassets in Resources */,
+				7CDAA7291FA178680084E413 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CDAA7321FA178690084E413 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CDAA73D1FA178690084E413 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CDAA7171FA178680084E413 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CDAA7261FA178680084E413 /* ViewController.m in Sources */,
+				7CDAA7231FA178680084E413 /* AppDelegate.m in Sources */,
+				7CDAA7201FA178680084E413 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CDAA7301FA178690084E413 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CDAA7391FA178690084E413 /* ZKCirclePushTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CDAA73B1FA178690084E413 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CDAA7441FA178690084E413 /* ZKCirclePushUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CDAA7361FA178690084E413 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CDAA71A1FA178680084E413 /* ZKCirclePush */;
+			targetProxy = 7CDAA7351FA178690084E413 /* PBXContainerItemProxy */;
+		};
+		7CDAA7411FA178690084E413 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CDAA71A1FA178680084E413 /* ZKCirclePush */;
+			targetProxy = 7CDAA7401FA178690084E413 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CDAA7271FA178680084E413 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CDAA7281FA178680084E413 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CDAA72C1FA178680084E413 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CDAA72D1FA178680084E413 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CDAA7461FA178690084E413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7CDAA7471FA178690084E413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CDAA7491FA178690084E413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K36LPBJ5XL;
+				INFOPLIST_FILE = ZKCirclePush/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adpanshi.JK.ZKCirclePush;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7CDAA74A1FA178690084E413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K36LPBJ5XL;
+				INFOPLIST_FILE = ZKCirclePush/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adpanshi.JK.ZKCirclePush;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7CDAA74C1FA178690084E413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K36LPBJ5XL;
+				INFOPLIST_FILE = ZKCirclePushTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adpanshi.JK.ZKCirclePushTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZKCirclePush.app/ZKCirclePush";
+			};
+			name = Debug;
+		};
+		7CDAA74D1FA178690084E413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K36LPBJ5XL;
+				INFOPLIST_FILE = ZKCirclePushTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adpanshi.JK.ZKCirclePushTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZKCirclePush.app/ZKCirclePush";
+			};
+			name = Release;
+		};
+		7CDAA74F1FA178690084E413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = K36LPBJ5XL;
+				INFOPLIST_FILE = ZKCirclePushUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adpanshi.JK.ZKCirclePushUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZKCirclePush;
+			};
+			name = Debug;
+		};
+		7CDAA7501FA178690084E413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = K36LPBJ5XL;
+				INFOPLIST_FILE = ZKCirclePushUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adpanshi.JK.ZKCirclePushUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZKCirclePush;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CDAA7161FA178680084E413 /* Build configuration list for PBXProject "ZKCirclePush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CDAA7461FA178690084E413 /* Debug */,
+				7CDAA7471FA178690084E413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CDAA7481FA178690084E413 /* Build configuration list for PBXNativeTarget "ZKCirclePush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CDAA7491FA178690084E413 /* Debug */,
+				7CDAA74A1FA178690084E413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7CDAA74B1FA178690084E413 /* Build configuration list for PBXNativeTarget "ZKCirclePushTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CDAA74C1FA178690084E413 /* Debug */,
+				7CDAA74D1FA178690084E413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7CDAA74E1FA178690084E413 /* Build configuration list for PBXNativeTarget "ZKCirclePushUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CDAA74F1FA178690084E413 /* Debug */,
+				7CDAA7501FA178690084E413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CDAA7131FA178680084E413 /* Project object */;
+}
